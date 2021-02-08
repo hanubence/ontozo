@@ -1,0 +1,117 @@
+@font-face {
+	font-family: Alap;
+	src: url("./font/WorkSans-Medium.ttf");
+}
+
+body {
+	background-color: #a4c3e7;
+	font-family: Alap;
+
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.o1 {
+	grid-area: elso;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #546b86;
+	border-bottom: 0.5rem #546b86;
+	border-radius: 2px;
+}
+
+.o2 {
+	grid-area: masodik;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #546b86;
+	border-bottom: 0.5rem #546b86;
+	border-radius: 2px;
+}
+
+.o3 {
+	grid-area: harmadik;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #546b86;
+	border-bottom: 0.5rem #546b86;
+	border-radius: 2px;
+}
+
+.o4 {
+	grid-area: negyedik;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #546b86;
+	border-bottom: 0.5rem #546b86;
+	border-radius: 2px;
+}
+
+.fejlec {
+	grid-area: fejlec;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #546b86;
+	border-bottom: 0.5rem #546b86;
+	border-radius: 2px;
+}
+
+.lab {
+	grid-area: lab;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #546b86;
+	border-bottom: 0.5rem #546b86;
+	border-radius: 2px;
+}
+
+.fejlec-szoveg {
+	color: white;
+	font-size: 3rem;
+	padding: 0 auto;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr 2fr 2fr 0.5fr;
+	grid-template-areas:
+		"fejlec fejlec"
+		"elso masodik"
+		"harmadik negyedik"
+		"lab lab";
+
+	row-gap: 1rem;
+	column-gap: 1rem;
+
+	width: 85vw;
+	height: 90vh;
+	background-color: #3a4b5f;
+	border: 1rem #3a4b5f;
+	border-radius: 5px;
+	padding: 1rem;
+	margin: auto;
+}
